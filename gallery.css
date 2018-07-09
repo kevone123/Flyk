@@ -1,0 +1,28 @@
+div.gallery {
+    margin: 0px;
+    border: 1.5px solid #ccc;
+    float: left;
+    width: 180px;
+    
+}
+
+div.gallery:hover {
+    border: 1px;
+    color:darkorange; 
+}
+
+div.gallery img {
+    width: 100%;
+    height:120px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+div.bodies{
+  height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}

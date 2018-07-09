@@ -1,0 +1,139 @@
+body {
+ /* Perfect background */
+  font-family: Open Sans;
+  font-size: 62.5%;
+  color: #444;
+     
+
+  background-image:url('imgs/coolerpic.gif');
+  margin: 0px;
+  background: url('imgs/coolerpic.gif') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+
+}
+.content {
+right: 50px;
+position: static; 
+max-width: 1000px; /* Maximum width */
+margin: 0 auto; /* Center it */
+bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+color: #f1f1f1; /* Grey text */
+width: 100%; /* Full width */
+padding: 100px; /* Some padding */
+position: fixed;    
+ 
+}
+# content  words { 
+right:1000px ;
+
+}
+
+
+
+
+
+#head {
+  height: 40%;
+  width: 100%;
+  /*background-repeat: no-repeat;
+  background-position: center center;
+  background-size:cover;*/
+  text-align: center;
+  position: fixed;
+  top: 50px;
+}
+title{
+  text-align: inherit;
+}
+subTitle{
+  text-align: inherit;
+
+}
+#selectors {
+    width:100%;
+    height:100%;
+}
+
+
+
+#video-background {
+/*  making the video fullscreen  */
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+}
+
+
+img {
+  border-radius: 40%;
+  width: 20%;
+  padding-top: 10px;
+}
+header {
+  height: 50px;
+  /* Important background */
+  background:#333;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: left;
+  text-decoration: crimson underline;
+  color: white;
+  font-size: 15px;
+  width: 100%;
+  position: relative;
+  display: inline-block;
+  font-family: arial;
+  
+}
+
+header nav  ul {
+position: relative;
+margin: 1em 0 0;
+font-family: 'Luckiest Guy', cursive;
+color: aqua;
+z-index: 2;
+}
+
+
+.individual-bubble {
+position: absolute;
+border-radius: 100%;
+bottom: 10px;
+background-color: #fff;
+z-index: 1;
+}
+
+
+#shade{
+/*  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,7);*/
+
+}
+
+#title{
+  font-size: 4em;
+  color: white;
+  font-weight: bold;
+  font-family: Ubuntu;
+  text-shadow: 2px 3px 5px rgba(0,0,0,3);
+
+}
+#subTitle {
+
+  font-size: 1.5em;
+  letter-spacing: .25em;
+  text-shadow: 2px 3px 5px rgba(0,0,0,3);
+  color:aqua
+
+}
